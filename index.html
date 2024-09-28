@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+  <!-- Navbar header section -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <h2 class="logo-heading">Rishab Patel</h2>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars hamburger-icon"></i>
+        <i class="fas fa-times cross-icon"></i>
+      </div>
+      <div class="menu">
+        <ul class="menu-list">
+          <li class="menu-list-items">
+            <a class="links" href="#home">
+              Home
+            </a>
+          </li>
+          <li class="menu-list-items">
+            <a class="links" href="#portfolio">
+              Portfolio
+            </a>
+          </li>
+          <li class="menu-list-items">
+            <a class="links" href="#about">
+              About
+            </a>
+          </li>
+          <li class="menu-list-items">
+            <a class="links" href="#services">
+              Certifications
+            </a>
+          </li>
+          <li class="menu-list-items">
+            <a class="links" href="#contact">
+              Contact Me
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main hero banner -->
+  <section id="home" class="hero">
+    <div class="intro">
+      <div class="headings">
+        <h3 class="greet-heading">Hello, I'm</h3>
+        <h1 class="my-heading">Rishab Patel</h1>
+        <h4 class="sub-heading">
+          a student currently studying at VSIT. I’ve recently completed a Front-End Developer certification from Meta.
+        </h4>
+      </div>
+      <div class="intro-buttons">
+        <button class="btn common-btn">Hire Me</button>
+        <button class="btn ghost-btn">Get Resume</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <div class="portfolio-heading">
+      <h1 class="my-heading text-center">Some of my Project's</h1>
+    </div>
+    <div class="portfolio-content">
+      <div class="my-row">
+        <div class="my-col">
+          <div class="my-card port-card">
+            <div class="image">
+              <img src="./Images/designImage2.avif" alt="Web Design Image">
+            </div>
+            <h3 class="greet-heading blue-text">Web Design</h3>
+            <p class="small-para blue-text">Designing</p>
+          </div>
+        </div>
+        <div class="my-col">
+          <div class="my-card port-card">
+            <div class="image">
+              <img src="./Images/webDevelopment2.avif" alt="Web Development Image">
+            </div>
+            <h3 class="greet-heading blue-text">
+              Web Development
+            </h3>
+            <p class="small-para blue-text">Development</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-text">
+      <h1 class="my-heading">About Me</h1>
+      <p class="lead-para">
+        Hello! I’m Rishab, a dedicated student at Vivekanand Education Society's Institute of Technology (VSIT) with a strong passion for web development and software engineering. Recently, I completed a Front-End Developer certification from Meta, where I gained advanced knowledge in creating dynamic, responsive, and user-friendly web applications. Through this certification, I’ve honed my skills in technologies like HTML, CSS, JavaScript, and React, along with tools like Jest for testing and Tailwind CSS for efficient styling.
+      </p>
+      <p>
+        Beyond academics, I am constantly working on personal projects to apply and refine my front-end development skills. I’m excited to start building more real-world applications that not only solve problems but also provide seamless user experiences. As I continue to grow in the field, my goal is to contribute to innovative projects and collaborate with other developers to create impactful digital solutions.
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="./Images/heroImg2.avif" alt="About Image">
+    </div>
+  </section>
+
+  <!-- Contact me section -->
+  <section class="contact" id="contact">
+    <div class="contact-heading">
+      <h1 class="my-heading text-center">Contact Me</h1>
+    </div>
+    <div class="contact-content">
+      <div class="contact-form-container">
+        <h1 class="greet-heading">Get In Touch</h1>
+        <form class="contact-form">
+          <input class="form-controls" type="text" placeholder="  Your Name">
+          <input class="form-controls" type="text" placeholder="   Your Email">
+          <input class="form-controls" type="text" placeholder="   Your Phone">
+          <textarea class="form-controls" placeholder="   Write your message" name="message" id="" cols="30" rows="10">
+                      </textarea>
+          <input class="form-btn btn common-btn" type="submit" value="Send Message">
+        </form>
+      </div>
+      <div class="contact-details">
+        <h1 class="greet-heading">My Contact Details</h1>
+        <div class="details">
+          <h5 class="contact-heading">EMAIL</h5>
+          <p class="contact-text">rishabrp2006@gmail.com</p>
+        </div>
+        <div class="details">
+          <h5 class="contact-heading">PHONE</h5>
+          <p class="contact-text">+91 9653129191</p>
+        </div>
+
+        <div class="details">
+          <h5 class="contact-heading">ADDRESS</h5>
+          <p class="contact-text">Maharashtra, India</p>
+          <p>Actual address nhi batana</p>
+          <p>Abhibhi kya padh rhe ho nhi batarha</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <footer class="footer">
+    <div class="footer-content text-center">
+      <h4>
+        © 2024 Rishab. All Rights Reserved.
+        This website and its content, including text, images, design, and code, are the intellectual property of Rishab. Unauthorized use, duplication, or distribution of any material on this site without express permission is strictly prohibited. Some elements and ideas on this website were inspired by resources from GeeksforGeeks. All external resources or content referenced are credited to their respective owners.
+      </h4>
+      <div class="social-links">
+        <div class="footer-menu">
+          <ul class="footer-menu-list">
+            <li class="footer-list-items">
+              <a class="footer-links" href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="footer-list-items">
+              <a class="footer-links" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="footer-list-items">
+              <a class="footer-links" href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="footer-list-items">
+              <a class="footer-links" href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
