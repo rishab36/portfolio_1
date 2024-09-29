@@ -1,6 +1,7 @@
 # Portfolio_1
 <br>
-Here is My Portfolio Link https://66f8089b51454fded29fa727--velvety-truffle-c968bd.netlify.app/
+My Portfolio Link https://66f8089b51454fded29fa727--velvety-truffle-c968bd.netlify.app/
+<br>
 <br>
 This repository contains the source code for my personal portfolio, built with HTML, CSS, and JavaScript. It features a responsive design with sections for About Me, Skills, Projects, and Contact. Explore my work and get inspired!
 <br>
